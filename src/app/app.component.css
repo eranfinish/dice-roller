@@ -1,0 +1,30 @@
+.container{
+  margin: 10px;
+  padding: 10px;
+  border-radius:15px ;
+  background-color: rgb(208, 216, 222);
+  display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.dice{
+  margin:5vw;
+  width: 15vw;
+  height: 15vw;
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+justify-content: space-between;
+}
+.dot{
+  background-color: black;
+  border-radius: 50%;
+  width: 3vw;
+  height: 3vw;
+  margin: 3px;
+}
+
+.hide-dot{
+  background-color: rgb(208, 216, 222);
+}

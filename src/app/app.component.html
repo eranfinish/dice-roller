@@ -1,0 +1,14 @@
+<div>
+  Number Of Dice
+  <div>
+   <input id="dice-amount" type="number"  min="0" max="12"
+   [(ngModel)]="numberOfDice"/>
+   <button (click)="updateArray()">Roll</button>
+  </div>
+  <div class="container">
+
+  <div  *ngFor="let i of [].constructor(numberOfDice); let idx = index">
+    <app-dice [diceNumber]="diceItems[idx]" ></app-dice>
+
+  </div>
+</div>
